@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kujawy</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      background: hotpink;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+      white-space: pre-line;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .gallery img {
+      width: 90%;
+      max-width: 700px;
+      border-radius: 20px;
+      border: 5px solid white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>witam na stronie kujawy</h1>
+
+  <p>
+kujawy to zajebista wies w
+swietokrzyskim w gminie rumunskiej.
+
+najpopularniejsi obywatele to:
+kazimierz wyrzykowski,
+ryszard majsak,
+jaroslaw kowalski
+i bulewka.
+
+na kujawach mozesz zwiedzic:
+sklep gama mini,
+staw,
+boisko,
+sklep u sameli
+i 2 altany.
+  </p>
+
+  <div class="gallery">
+    <img src="file_00000000281471f8a17b064d995af470.jpg" alt="Zdjęcie 1">
+    <img src="file_00000000081071fd8193f63cb59bc53c.jpg" alt="Zdjęcie 2">
+    <img src="file_00000000929471f8b4347df5de42347b.jpg" alt="Zdjęcie 3">
+  </div>
+
+</body>
+</html>
