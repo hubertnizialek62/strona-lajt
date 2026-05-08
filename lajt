@@ -1,45 +1,31 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kujawy</title>
 
   <style>
     body {
+      background-color: hotpink;
+      color: white;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 40px;
-      background: hotpink;
-      font-family: Arial, sans-serif;
-      color: white;
       text-align: center;
     }
 
     h1 {
       font-size: 48px;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
 
     p {
-      font-size: 24px;
-      line-height: 1.6;
+      font-size: 26px;
+      line-height: 1.8;
       max-width: 900px;
-      margin: 0 auto 40px auto;
+      margin: auto;
       white-space: pre-line;
-    }
-
-    .gallery {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      align-items: center;
-    }
-
-    .gallery img {
-      width: 90%;
-      max-width: 700px;
-      border-radius: 20px;
-      border: 5px solid white;
     }
   </style>
 </head>
@@ -48,7 +34,7 @@
   <h1>witam na stronie kujawy</h1>
 
   <p>
-kujawy to zajebista wies w
+kujawy, kujawy to zajebista wies w
 swietokrzyskim w gminie rumunskiej.
 
 najpopularniejsi obywatele to:
@@ -64,12 +50,6 @@ boisko,
 sklep u sameli
 i 2 altany.
   </p>
-
-  <div class="gallery">
-    <img src="Messenger_creation_A5204CB8-9202-4065-9ACD-FC551754435E.jpeg" alt="Zdjęcie 1">
-    <img src="file_00000000081071fd8193f63cb59bc53c.jpg" alt="Zdjęcie 2">
-    <img src="file_00000000929471f8b4347df5de42347b.jpg" alt="Zdjęcie 3">
-  </div>
 
 </body>
 </html>
